@@ -1,0 +1,18 @@
+.popoverContainer {
+    height: 40vh;
+    overflow: auto;
+}
+
+.productItem {
+    border: crimson solid 1px;
+    margin: 5px 0;
+}
+
+.productItem > Button {
+    border-radius: 0;
+    width: 100%;
+}
+
+.productItem h2, .productItem h1 {
+    margin: 5px;
+}

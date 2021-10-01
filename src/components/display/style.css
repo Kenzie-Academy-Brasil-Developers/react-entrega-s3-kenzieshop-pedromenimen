@@ -1,0 +1,23 @@
+.productName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.productName:hover {
+    cursor: default;
+}
+
+.displayContainer {
+    width: 300px;
+    display: inline-block;
+    border: solid crimson .5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.price {
+    font-size: xx-large;
+}
